@@ -5,8 +5,10 @@
 # Default Prompt for reference
 format = '''
 $virtualenv$directory$git_branch$git_commit$git_status$c$cmd_duration$python$shlvl
-$jobs$hostname$username $shell $character
+$username $shell $character
 '''
+# $jobs$hostname
+
 right_format = "$status${custom.minitalk}${custom.valgrind}$localip$time $battery$os"
 
 continuation_prompt = '▶▶ '
